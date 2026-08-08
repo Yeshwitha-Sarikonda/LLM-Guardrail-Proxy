@@ -26,7 +26,8 @@ An inline AI security proxy engineered to inspect, sanitize, and block adversari
 ┌───────────────────────────────┐        ┌─────────────────────────┐
 │ External LLM (OpenAI / Claude)│ ───►   │ SIEM Ingestion Endpoint │
 └───────────────────────────────┘        │ (Splunk / Azure Sentinel)│
-                                         └─────────────────────────┘
+────────────────────────────────┘        └─────────────────────────┘
+'''
 ## ✨ Key Features
 
 - **Adversarial Prompt Injection Detection:** Real-time classification blocking jailbreak strings, system prompt overrides, and roleplay exploits.
