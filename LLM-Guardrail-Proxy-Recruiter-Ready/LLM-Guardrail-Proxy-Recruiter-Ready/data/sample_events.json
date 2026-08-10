@@ -1,0 +1,25 @@
+[
+  {
+    "event_id": "DEMO-001",
+    "decision": "allow",
+    "risk_score": 0,
+    "triggered_rules": []
+  },
+  {
+    "event_id": "DEMO-002",
+    "decision": "review",
+    "risk_score": 40,
+    "triggered_rules": [
+      "system_prompt_exfiltration"
+    ]
+  },
+  {
+    "event_id": "DEMO-003",
+    "decision": "block",
+    "risk_score": 75,
+    "triggered_rules": [
+      "instruction_override",
+      "system_prompt_exfiltration"
+    ]
+  }
+]
