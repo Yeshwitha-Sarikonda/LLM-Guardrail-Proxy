@@ -82,7 +82,7 @@ The guardrail identifies prompt-injection and system-prompt-exfiltration attempt
 
 Sensitive information is automatically detected and redacted before the request can be forwarded to an LLM.
 
-![PII Redaction](LLM-Guardrail-Proxy-Recruiter-Ready/docs/screenshots/pii-redaction-allow.png)
+![PII Redaction](LLM-Guardrail-Proxy-Recruiter-Ready/LLM-Guardrail-Proxy-Recruiter-Ready/docs/screenshots/pii-redaction-allow.png.png)
 
 ### PII and Secret Redaction
 Masks:
