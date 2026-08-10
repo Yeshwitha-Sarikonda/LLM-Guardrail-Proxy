@@ -70,6 +70,20 @@ Detects common instruction-override and jailbreak patterns such as:
 - policy-bypass language
 - hidden/encoded prompt hints
 
+## 🖥️ Live Security Demonstration
+
+### Prompt Injection Detection & Blocking
+
+The guardrail identifies prompt-injection and system-prompt-exfiltration attempts, calculates a risk score, sanitizes sensitive information, and blocks high-risk requests.
+
+![Prompt Injection Blocked](docs/screenshots/prompt-injection-blocked.png)
+
+### PII Detection & Redaction
+
+Sensitive information is automatically detected and redacted before the request can be forwarded to an LLM.
+
+![PII Redaction](docs/screenshots/pii-redaction-allow.png)
+
 ### PII and Secret Redaction
 Masks:
 - SSNs
