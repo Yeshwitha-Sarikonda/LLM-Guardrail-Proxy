@@ -76,13 +76,13 @@ Detects common instruction-override and jailbreak patterns such as:
 
 The guardrail identifies prompt-injection and system-prompt-exfiltration attempts, calculates a risk score, sanitizes sensitive information, and blocks high-risk requests.
 
-![Prompt Injection Blocked](LLM-Guardrail-Proxy-Recruiter-Ready/docs/screenshots/prompt-injection-blocked.png)
+![Prompt Injection Blocked](/docs/screenshots/prompt-injection-blocked.png.png)
 
 ### PII Detection & Redaction
 
 Sensitive information is automatically detected and redacted before the request can be forwarded to an LLM.
 
-![PII Redaction](LLM-Guardrail-Proxy-Recruiter-Ready/LLM-Guardrail-Proxy-Recruiter-Ready/docs/screenshots/pii-redaction-allow.png.png)
+![PII Redaction](/docs/screenshots/pii-redaction-allow.png.png)
 
 ### PII and Secret Redaction
 Masks:
